@@ -1,0 +1,9 @@
+[Unit]
+Description=ytGhostBuster
+
+[Service]
+Type=simple
+ExecStart=/home/REPLACEME/.local/bin/ytGhostBuster.py
+
+[Install]
+WantedBy=default.target

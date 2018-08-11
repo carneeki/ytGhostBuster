@@ -1,0 +1,12 @@
+[Unit]
+Description=Run ytGhostBuster every hour
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+Persistent=false
+OnCalendar=hourly
+Unit=ytGhostBuster.service
+
+[Install]
+WantedBy=timers.target
